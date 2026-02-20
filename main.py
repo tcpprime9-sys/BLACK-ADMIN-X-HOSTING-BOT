@@ -44,8 +44,8 @@ def keep_alive():
 
 # --- Configuration ---
 TOKEN = '8488373589:AAG9z_bD7Wnw3cqzZHJSwFfipFlEzbnHeog' # Replace with your actual token
-OWNER_ID = 7530801175 # Replace with your Owner ID
-ADMIN_ID = 7530801175 # Replace with your Admin ID (can be same as Owner)
+OWNER_ID = 7090770573 # Replace with your Owner ID
+ADMIN_ID = 7090770573 # Replace with your Admin ID (can be same as Owner)
 YOUR_USERNAME = '@BLACK_ADMIN_X' # Replace with your Telegram username (without the @)
 UPDATE_CHANNEL = '@BLACK_ADMIN_X_CHANELX' # Replace with your update channel link
 
@@ -2221,4 +2221,5 @@ if __name__ == '__main__':
         except Exception as e:
             logger.critical(f"💥 Unrecoverable polling error: {e}", exc_info=True)
             logger.info("Restarting polling in 30s due to critical error..."); time.sleep(30)
+
         finally: logger.warning("Polling attempt finished. Will restart if in loop."); time.sleep(1)
